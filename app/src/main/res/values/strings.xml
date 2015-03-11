@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memories</string>
+    <string name="title_section1">Forest</string>
+    <string name="title_section2">Beach</string>
+    <string name="title_section3">Farm</string>
+    <string name="title_section4">Ocean</string>
+    <string name="title_section5">Arctic</string>
+    <string name="title_section6">My Memory Box</string>
+    <string name="title_section7">EXPERIMENT</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

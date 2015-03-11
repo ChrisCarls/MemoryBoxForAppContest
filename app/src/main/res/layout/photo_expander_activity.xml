@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:addStatesFromChildren="true"
+        android:layout_centerInParent="true">
+
+        <ImageView
+        android:id="@+id/photoExpanded1"
+        android:src="@drawable/no_photo_selected"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/switcherLinearLayout"
+            android:clickable="true"
+            android:background="@drawable/edit_epanded_border">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Large Text"
+                android:textColor="#ff000000"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+    </ViewFlipper>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="White Tail Deer"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="White-tailed deer, the smallest members of the North American deer family, are found from southern Canada to South America. In the heat of summer they typically inhabit fields and meadows using clumps of broad-leaved and coniferous forests for shade. During the winter they generally keep to forests, preferring coniferous stands that provide shelter from the harsh elements."
+        android:id="@+id/textView3" />
+</LinearLayout>

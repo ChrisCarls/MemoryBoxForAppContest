@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Barred Owl"
+        android:id="@+id/textView2"
+        android:textSize="40dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Barred Owl’s hooting call, “Who cooks for you? Who cooks for you-all?” is a classic sound of old forests and treed swamps. But this attractive owl, with soulful brown eyes and brown-and-white-striped plumage, can also pass completely unnoticed as it flies noiselessly through the dense canopy or snoozes on a tree limb. Originally a bird of the east, during the twentieth century it spread through the Pacific Northwest and southward into California."
+        android:id="@+id/textView3" />
+</LinearLayout>

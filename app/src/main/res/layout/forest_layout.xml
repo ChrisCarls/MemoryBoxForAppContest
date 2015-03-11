@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest_backgroundone">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deeer"
+        android:background="@drawable/deer_custom"
+        android:layout_marginRight="69dp"
+        android:layout_marginEnd="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="47dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/foxImgBtn"
+        android:background="@drawable/fox_custom"
+        android:layout_marginRight="301dp"
+        android:layout_marginEnd="301dp"
+        android:layout_alignBottom="@+id/deeer"
+        android:layout_toLeftOf="@+id/deeer"
+        android:layout_toStartOf="@+id/deeer" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/owlImgBtn"
+        android:layout_marginBottom="117dp"
+        android:background="@drawable/owl_custom"
+        android:layout_above="@+id/deeer"
+        android:layout_toLeftOf="@+id/foxImgBtn"
+        android:layout_toStartOf="@+id/foxImgBtn" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/raccoonImgBtn"
+        android:layout_alignBottom="@+id/deeer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginStart="60dp"
+        android:background="@drawable/raccoon_custom" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bearImgBtn"
+        android:background="@drawable/bear_custom"
+        android:layout_alignBottom="@+id/foxImgBtn"
+        android:layout_toLeftOf="@+id/deeer"
+        android:layout_toStartOf="@+id/deeer"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="69dp" />
+</RelativeLayout>

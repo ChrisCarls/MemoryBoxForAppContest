@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false">
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/nameTxt"
+        android:layout_gravity="right"
+        android:hint="What is their name?" />
+
+    <EditText
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionTxt"
+        android:layout_gravity="right"
+        android:hint="Description (Who are they? Where do they live?)" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to your memory box!"
+        android:id="@+id/addThePersonBtn"
+        android:layout_gravity="right"
+        android:enabled="false"
+        android:layout_marginRight="120dp" />
+
+</LinearLayout>

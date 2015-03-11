@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/memorybox_wood_background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/addNewPerson1"
+        android:layout_marginTop="36dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginStart="98dp"
+        android:src="@drawable/no_photo_selected"
+        android:background="@drawable/edit_border" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/namePerson1"
+        android:textSize="30dp"
+        android:layout_below="@+id/addNewPerson1"
+        android:layout_alignLeft="@+id/addNewPerson1"
+        android:layout_alignStart="@+id/addNewPerson1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/descriptionPerson1"
+        android:layout_below="@+id/namePerson1"
+        android:layout_alignLeft="@+id/namePerson1"
+        android:layout_alignStart="@+id/namePerson1"
+        android:textSize="30dp" />
+</RelativeLayout>
